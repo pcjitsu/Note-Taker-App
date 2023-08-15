@@ -14,3 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 
 // Middleware to serve up static assets from the public folder
 app.use(express.static("public"));
+
+//Create Route that Sends Client to Index.html on start up
+
+//Listen on Port 3001
+app.listen(PORT, () => console.log(`Listening for requests on port ${PORT}! `));
