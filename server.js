@@ -1,8 +1,9 @@
 const express = require("express");
-const path = require("path");
+
 
 // Import the feedback router
-const api = require("./routes/index");
+const api = require("./routes/api");
+const Html = require("./routes/html_route");
 
 const PORT = 3001;
 
@@ -16,6 +17,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //Create Route that Sends Client to Index.html on start up
+app.use("/api", api);
+app.use("/", Html);
 
 //Listen on Port 3001
 app.listen(PORT, () => console.log(`Listening for requests on port ${PORT}! `));
