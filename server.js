@@ -1,6 +1,5 @@
 const express = require("express");
 
-
 // Import the feedback router
 const api = require("./routes/api");
 const Html = require("./routes/html_route");
@@ -16,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Middleware to serve up static assets from the public folder
 app.use(express.static("public"));
 
-//Create Route that Sends Client to Index.html on start up
+//Create Route that Sends Client to Index.html on start up or api
 app.use("/api", api);
 app.use("/", Html);
 
