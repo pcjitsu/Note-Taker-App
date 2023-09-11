@@ -23,6 +23,7 @@ one way is to clone the repo and run on local and the other is by visitng the si
 ## Usage
 
 Use this app by visitng the website and submitting the information you want to store and hitting save
+(https://desolate-basin-04593-112e8e53845c.herokuapp.com/notes)
 
 ## Contributing
 
