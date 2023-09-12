@@ -19,11 +19,13 @@ This is a web application that allows you to update and store notes
 ## Installation
 
 one way is to clone the repo and run on local and the other is by visitng the site
+(https://desolate-basin-04593-112e8e53845c.herokuapp.com/notes)
 
 ## Usage
 
 Use this app by visitng the website and submitting the information you want to store and hitting save
-(https://desolate-basin-04593-112e8e53845c.herokuapp.com/notes)
+Demo video below
+(https://drive.google.com/file/d/1FpRsPTDp27LtUSgUd9ZGYPGiezFCnZwU/view)
 
 ## Contributing
 
@@ -31,7 +33,7 @@ BCS Help, Open AI for some questions on formatting, mini-project, tutoring hours
 
 ## Tests
 
-test this app with jest
+test this app with by locally downlaoding it
 
 ## License
 
